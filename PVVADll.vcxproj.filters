@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\Util">
+      <UniqueIdentifier>{6a1cfbe4-8b40-4867-9b3e-c80230a5d684}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Calculation">
+      <UniqueIdentifier>{22829d41-eb24-4fb8-bc5d-32bde110d403}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\VTK">
+      <UniqueIdentifier>{87709760-02d9-4873-b648-7e199e472c1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Calculation">
+      <UniqueIdentifier>{562c022b-b4ea-44a1-beb7-8e3b91f01244}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\VTK">
+      <UniqueIdentifier>{d2875a41-184a-47de-86ee-f696f6747324}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Util">
+      <UniqueIdentifier>{1c3f9836-e3c8-4302-8b44-e84f490c9ae0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PVVADll.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Calculation\PVVA.cpp">
+      <Filter>源文件\Calculation</Filter>
+    </ClCompile>
+    <ClCompile Include="Calculation\FFT.cpp">
+      <Filter>源文件\Calculation</Filter>
+    </ClCompile>
+    <ClCompile Include="VTK\Field.cpp">
+      <Filter>源文件\VTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Util\Matrix4D.cpp">
+      <Filter>源文件\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Util\Position3D.cpp">
+      <Filter>源文件\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Util\Vector3D.cpp">
+      <Filter>源文件\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Util\comUtil.cpp">
+      <Filter>源文件\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ClonedMirrorsAndRestriction\BasicParameters.cpp">
+      <Filter>源文件\VTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ClonedMirrorsAndRestriction\Ellipsoid.cpp">
+      <Filter>源文件\VTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ClonedMirrorsAndRestriction\Mirror.cpp">
+      <Filter>源文件\VTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ClonedMirrorsAndRestriction\MirrorFactory.cpp">
+      <Filter>源文件\VTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ClonedMirrorsAndRestriction\Paraboloid.cpp">
+      <Filter>源文件\VTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ClonedMirrorsAndRestriction\PlaneMirror.cpp">
+      <Filter>源文件\VTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ClonedMirrorsAndRestriction\QuadricSurfaceMirror.cpp">
+      <Filter>源文件\VTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ClonedMirrorsAndRestriction\RayTracing.cpp">
+      <Filter>源文件\VTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ClonedMirrorsAndRestriction\Restriction.cpp">
+      <Filter>源文件\VTK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ClonedMirrorsAndRestriction\STLMirror.cpp">
+      <Filter>源文件\VTK</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PVVADll.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Calculation\FFT.h">
+      <Filter>头文件\Calculation</Filter>
+    </ClInclude>
+    <ClInclude Include="Calculation\fftw3.h">
+      <Filter>头文件\Calculation</Filter>
+    </ClInclude>
+    <ClInclude Include="Calculation\PVVA.h">
+      <Filter>头文件\Calculation</Filter>
+    </ClInclude>
+    <ClInclude Include="VTK\Field.h">
+      <Filter>头文件\VTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Util\Constant_Var.h">
+      <Filter>头文件\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Util\GEMS_Memory.h">
+      <Filter>头文件\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Util\GraphTrans.h">
+      <Filter>头文件\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Util\Matrix4D.h">
+      <Filter>头文件\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Util\Position3D.h">
+      <Filter>头文件\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Util\Vector2.h">
+      <Filter>头文件\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Util\Vector3.h">
+      <Filter>头文件\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Util\Vector3D.h">
+      <Filter>头文件\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Util\Rays.h">
+      <Filter>头文件\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Util\comUtil.h">
+      <Filter>头文件\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ClonedMirrorsAndRestriction\BasicParameters.h">
+      <Filter>头文件\VTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ClonedMirrorsAndRestriction\Ellipsoid.h">
+      <Filter>头文件\VTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ClonedMirrorsAndRestriction\Mirror.h">
+      <Filter>头文件\VTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ClonedMirrorsAndRestriction\MirrorFactory.h">
+      <Filter>头文件\VTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ClonedMirrorsAndRestriction\Paraboloid.h">
+      <Filter>头文件\VTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ClonedMirrorsAndRestriction\PlaneMirror.h">
+      <Filter>头文件\VTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ClonedMirrorsAndRestriction\QuadricSurfaceMirror.h">
+      <Filter>头文件\VTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ClonedMirrorsAndRestriction\RayTracing.h">
+      <Filter>头文件\VTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ClonedMirrorsAndRestriction\Restriction.h">
+      <Filter>头文件\VTK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ClonedMirrorsAndRestriction\STLMirror.h">
+      <Filter>头文件\VTK</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PVVADll.vcxproj.user">
+      <Filter>头文件\Util</Filter>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
